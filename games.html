@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mira The Cat - Games</title>
+        <link rel="icon" href="/images/pfp.png">
+
+        <meta property="og:site_name" content="Mira The Cat's Website">
+        <meta property="og:title" content="Games Page">
+        <meta property="og:description" content="A list of my games!">
+        <meta property='og:image' content='/images/pfp.png'>
+        <meta property="og:type" content="website">
+        <meta name="theme-color" content="#60ff52">
+
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+
+    <body>
+        <div class="navigation-bar">
+            <img class="icon" src="/images/pfp.png">
+            <a href="/index.html" class="top bordered">Home</a>
+            <a href="/about.html" class="top bordered">About</a>
+            <a href="/projects.html" class="top bordered">Projects</a>
+            <div class="top">Games</div>
+        </div>
+
+        <h2>My games:</h2>
+
+        <div class="project-storage">
+
+            <!-- First row -->
+
+            <div class="project-container">
+                <div class="project">
+                    <a class="project-name" href="/peanutgame.html">GHP's Peanut Farm v1.2</a>
+                    <p>
+                        A clicker game where you try to farm as many peanuts as possible, using 25 different
+                        items and 20 different farmers! Become a peanut trillionare today by clicking
+                        <a href="/peanutgame.html">this link</a> or by clicking the "GHP's Peanut Farm"
+                        title above!
+                        <br>
+                        <br><a href="#" onmouseover="showChangelog('changelog1')" onmouseout="hideChangelog('changelog1')">Changelog</a>
+                    </p>
+
+                </div>
+
+                <div id="changelog1" class="project-changelog" style="left: 18.5%;">
+                    <h5 class="project-version">v1.1:</h5>
+                    <p class="project-text">Added saving</p>
+                    <h5 class="project-version">v1.2:</h5>
+                    <p class="project-text">Added prestiging</p>
+                </div>
+
+                <div class="project">
+                    <img src="/images/peanutgame.PNG" class="project-img">
+                </div>
+            </div>
+
+            <div class="project-container">
+                <div class="project">
+                    <a class="project-name" href="/peanutTree/index.html">The Peanut Tree v0.2</a>
+                    <p> 
+                        A Prestige Tree-type game where you prestige, buy upgrades and unlock new
+                        layers to farm as many peanuts as possible! There are currently 6 layers
+                        to unlock!
+                        <br>
+                        <br><a href="#" onmouseover="showChangelog('changelog2')" onmouseout="hideChangelog('changelog2')">Changelog</a>
+                    </p>
+
+                </div>
+
+                <div id="changelog2" class="project-changelog" style="right: 18.5%;">
+                    <h5 class="project-version">Changelog:</h5>
+                    <p class="project-text">View changelog in-game to see the changelog</p>
+                </div>
+
+                <div class="project">
+                    <img src="/images/peanutTree.png" class="project-img">
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="javascript/projects.js"></script>
+    </body>
+</html>
